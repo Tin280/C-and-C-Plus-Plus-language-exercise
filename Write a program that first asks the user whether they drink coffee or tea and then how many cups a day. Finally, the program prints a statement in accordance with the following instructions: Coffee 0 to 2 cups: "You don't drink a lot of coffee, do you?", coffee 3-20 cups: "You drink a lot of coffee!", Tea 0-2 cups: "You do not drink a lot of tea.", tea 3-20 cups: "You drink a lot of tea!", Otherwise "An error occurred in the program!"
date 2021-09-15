@@ -1,0 +1,38 @@
+#include<stdio.h>
+int main(){
+	char answer;
+	int a;
+	printf("Do you drink coffee or tea (c/t)?");
+	answer = getchar();
+	printf("How many cups do you drink daily :");
+	scanf("%d",&a);
+  switch(answer) 
+  { 
+        	case 'c': 
+          
+          	if(0<=a&&a<=2)
+			{
+				      printf("You don't drink a lot of coffee,do you?");
+	    }
+	     	    else if(3<=a&&a<=20)
+	    {
+				      printf("You drink a lot of coffee!");
+			}
+		          break;
+			    case 't':
+				    if(0<=a&&a<=2)
+      {
+					    printf("You do not drink a lot of tea.");
+		  }
+				    else if(3<=a&&a<=20)
+			{
+					    printf("You drink a lot of tea!");
+		  }
+		          break;
+			default:
+				
+				printf("An error occurred in the program!");
+			}
+	return 0;
+	
+}
