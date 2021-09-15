@@ -11,28 +11,34 @@ int main(){
         	case 'c': 
           
           	if(0<=a&&a<=2)
-			{
+	    {
 				      printf("You don't drink a lot of coffee,do you?");
 	    }
-	     	    else if(3<=a&&a<=20)
+	     	else if(3<=a&&a<=20)
 	    {
 				      printf("You drink a lot of coffee!");
-			}
+	    }
+	    	else
+	    {	
+				      printf("An error occurred in the program!");
+	    }
 		          break;
-			    case 't':
-				    if(0<=a&&a<=2)
-      {
-					    printf("You do not drink a lot of tea.");
-		  }
-				    else if(3<=a&&a<=20)
-			{
-					    printf("You drink a lot of tea!");
-		  }
+		case 't':
+		
+		if(0<=a&&a<=2)
+      	    {
+				      printf("You do not drink a lot of tea.");
+	    }
+		else if(3<=a&&a<=20)
+	    {
+				      printf("You drink a lot of tea!");
+	    }
+	   	else
+	    {	
+				      printf("An error occurred in the program!");
+	    }
 		          break;
-			default:
-				
-				printf("An error occurred in the program!");
-			}
+  }
 	return 0;
 	
 }
