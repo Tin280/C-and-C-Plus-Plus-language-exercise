@@ -1,3 +1,5 @@
+##print from 1 to number need
+
 #include<stdio.h>
 int main(){
 	int a,i;
