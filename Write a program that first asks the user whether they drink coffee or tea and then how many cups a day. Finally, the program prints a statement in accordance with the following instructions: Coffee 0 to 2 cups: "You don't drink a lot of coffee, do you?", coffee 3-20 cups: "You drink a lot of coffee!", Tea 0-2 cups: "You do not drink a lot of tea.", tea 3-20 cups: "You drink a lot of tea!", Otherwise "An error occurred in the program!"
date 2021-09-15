@@ -38,6 +38,8 @@ int main(){
 				      printf("An error occurred in the program!");
 	    }
 		          break;
+	  	default:
+		 		      printf("An error occurred in the program!");
   }
 	return 0;
 	
